@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Developer Portfolio</title>
+
+    <style>
+        body {
+            font-family: Times New Roman, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F8D4D4;
+        }
+
+     .container {
+            
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+}
+
+        header {
+            background-color: #2f2c2c;
+            padding: 20px;
+            color: #fff;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #666;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        .project {
+            margin-bottom: 20px;
+        }
+
+        .project h3 {
+            margin-bottom: 10px;
+        }
+
+        .project p {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Hi,
+             I'm Sara,
+             Web Developer.</h1>
+        </header>
+
+        <nav>
+            <a href="#about">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <main>
+            <section id="about">
+                <h2>About Me</h2>
+                <p>I am a skilled web developer with experience in HTML, CSS, and JavaScript. I have a strong passion for creating dynamic and responsive websites.I have always been interested in web development, and I have the necessary skills required for the role. I have a good understanding of HTML, CSS, JavaScript, and Jqueries. I am currently improving my mobile app development skills by learning various new technologies.</p>
+            </section>
+
+            <section id="projects">
+                <h2>Projects</h2>
+                <div class="project">
+                    <h3>Project 1</h3>
+                    <p>Landing Page Website.</p>
+                </div>
+                <div class="project">
+                    <h3>Project 2</h3>
+                    <p>To Do App.</p>
+                </div>
+                <div class="project">
+                    <h3>Project 3</h3>
+                    <p>Temperature Converter Website.</p>
+                </div>
+            </section>
+
+            <section id="contact">
+                <h2>Contact</h2>
+                <p>Feel free to contact me for any inquiries or collaboration opportunities.</p>
+                <p>Email: webdeveloper@gmail.com</p>
+                <p>Phone: 123-456-7890</p>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
