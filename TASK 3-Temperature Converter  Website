@@ -4,9 +4,9 @@
     <title>Temperature Converter</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: Times New Roman, sans-serif;
             text-align: center;
-            background-color: #BFC9CA;
+            background-color: #AED6F1;
         }
 
         h1 {
